@@ -1,0 +1,49 @@
+Day1 28-04-2025 Monday
+How to organise files and folders in our laptop:
+
+Git Commands:
+
+$ git clone https://github.com/neelmyna/gofs_nie
+$ git status
+
+$ git add ./programs
+
+$ git commit -m "MESSAGE"
+
+$ git push origin main
+
+$ git config --global user.name "USERNAME"
+$ git config --global user.email "GIT EMAIL"
+
+Steps to create Git Account
+Steps to create new Repo
+
+software folder and App downloads and installations
+Adding path to env variables
+learning folder and other folders
+
+Day1 Assignments:
+keyboard shortcuts for notepad++
+keyboard shortcuts for vs code
+
+----------------------------------------------------------------------------
+Day2 29-04-2025 Tuesday
+
+Steps to create Personal Access Token (PAT)
+Click on Profile picture (Top right corner)
+Sroll down and click settings
+In next page, (scroll down) on left side, click developer settings
+In next page on top left, Click personal access tokens and select classic token
+In next page, again click generate new token and select classic
+May prompt for authentication
+In next page Give a note
+Click expiry and select no expiry
+Now select the check box Repo
+scroll down fully and click generate token
+Copy the token
+Mail it to yourself (keep it with you safely)
+
+$ git clone https://PAT@github.com/neelmyna/python_may25
+
+
+
