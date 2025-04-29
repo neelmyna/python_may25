@@ -1,0 +1,10 @@
+ASSIGNMENTS
+
+p4.py
+Check if a number is Even.
+p5.py
+Check if an alphabet is small case
+p6.py
+Check if an alphabet is upper case
+p7.py
+Check if the input is alphanumeric

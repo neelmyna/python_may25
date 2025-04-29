@@ -1,7 +1,7 @@
 # program to check if a number is positive or negative or zero
 
-print('Enter the input number')
-input_number = int(input())
+# print('Enter the input number', end=': ')
+input_number = int(input('Enter the input number: '))
 
 if input_number > 0:
     print(input_number, 'is positive')
