@@ -1,10 +1,33 @@
 ASSIGNMENTS
 
-p4.py
+p4.py and p5.py
 Check if a number is Even.
-p5.py
-Check if an alphabet is small case
 p6.py
-Check if an alphabet is upper case
+Check if an alphabet is small case
 p7.py
+Check if an alphabet is upper case
+p8.py
 Check if the input is alphanumeric
+p9.py
+Check if the year is leap year
+p10.py
+Find biggest of 2 numbers
+p11.py
+Find smallest of 3 numbers
+
+p5 Algorithm:
+Print the input message
+Read an input
+Convert it to int
+Save the input number in a variable
+input_number = int(input('Enter the input number: '))
+Logic:
+if input_number % 2 == 0:
+    print input_number is Even
+
+p6
+Read aan alphabet and store it in a variable (input_alpha)
+check if it is small case
+
+Arithmetic Operators
+Relational Operators
