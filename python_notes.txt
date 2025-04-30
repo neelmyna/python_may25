@@ -44,6 +44,57 @@ Copy the token
 Mail it to yourself (keep it with you safely)
 
 $ git clone https://PAT@github.com/neelmyna/python_may25
+-----------------------------------------------------
+Arithmetic Operators:
++ - * / // % **
+
+All are binary operators
+I/P are numbers (values, operanads)
+All these operators must be used with Infix notation
+O/P is also a number
+The expression with Arithmetic operators are solved left to right except for **
+Thus all operators (except **) have left to right assositivity
++ and - have lesser precedence than other operators
+** has highest priority.
+Thus * / // % have higher priority (precedence or heirarchy) than + and - and lesser precedence than **
+The Arithmetic operation happens only on same type of values. Because the way float numbers are stored is different than the integer numbers are stored in memory.
+However if we convert float to int then there may be loss of data (decimal part). Hence always int is converted to float to complete the operation.
+
+5 *  7 -  3  = 32
+5 + 13 *  3  = 44
+13 -  29 % 5 =  9
+13 -  29 / 5 = 7.2
+13 - 29 // 5 =  8
+4 ** 2 = 16
+3 * 2 ** 3 = 24
+2 ** 3 ** 2 = 512
+5.5 + 5 = 10.5
 
 
+11 + 28
+
+1101 + 11100
+
+011100
+001011
+100111  39
+
+10       2
+100      4
+1000     8
+10000   16
+100000  32
+
+5.75 + 9
+
+----------------------------------------------------------
+RELATIONAL OPERATORS:
+> < >= <= != ==
+
+All are binary operators
+Must be used with infix notation
+I/P are numbers
+O/P is boolean value
+All have left to right associtivity
+Relational operators have lesser precedence than Arithmetic operators but higher priority than logical operators
 

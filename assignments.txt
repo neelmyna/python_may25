@@ -14,6 +14,13 @@ p10.py
 Find biggest of 2 numbers
 p11.py
 Find smallest of 3 numbers
+p12.py
+Given the average marks of a student, print the result as follows:
+0  - 49 Fail
+50 - 79 SC
+80 - 95 FC
+96- 100 Excellent 
+Also check for invalid Input
 
 p5 Algorithm:
 Print the input message
@@ -31,3 +38,10 @@ check if it is small case
 
 Arithmetic Operators
 Relational Operators
+-------------------------
+abcd ABCD 0123
+
+read a character
+check if it is upper case letter, lower case letter or a digit
+if yes, print alphanumeric
+if no, print not an alphanumeric

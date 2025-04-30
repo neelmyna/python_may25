@@ -16,4 +16,13 @@ values of small case letters is from 97 to 122
 98 b
 99 c
 122 z
+
+'10'  is a string
+10  is a number
+'0' is a string
+0 is a number
+
+48  '0'
+49  '1'
+57  '9'
 '''
