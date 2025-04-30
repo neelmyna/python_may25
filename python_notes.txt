@@ -97,4 +97,20 @@ I/P are numbers
 O/P is boolean value
 All have left to right associtivity
 Relational operators have lesser precedence than Arithmetic operators but higher priority than logical operators
+-------------------------------------------------------------
+string class in python
 
+A string is one data which is made up of one or more characters.
+All the characters of the string together is a data.
+Individual letters or characters of the string has no meaning.
+On a string we may perform operations such as:
+convert to upper/lower
+find its length
+find a character or sub-string in it
+replace part of a string with another.
+take only cerain part of the string
+
+endswith, startswith, index, upper, lower, capitalize, isalpha, title, swapcase, substring, 
+
+count = count + 1
+count += 1

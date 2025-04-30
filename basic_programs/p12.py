@@ -14,13 +14,13 @@ else if avg_score is in range 96 to 100 then print Excellent
 else invalid score
 '''
 avg_score = float(input('Enter average score of the student: '))
-if avg_score >= 0 and avg_score <= 49:
-    print('Result is Fail')
-elif avg_score <= 79:
-    print('Result is Second Class')
-elif avg_score <= 95:
-    print('Result is First Class')
-elif avg_score <= 100:
+if avg_score >= 96 and avg_score <= 100:
     print('Result is Excellent')
+elif avg_score >= 80:
+    print('Result is First Class')
+elif avg_score >= 50:
+    print('Result is Second Class')
+elif avg_score >= 0:
+    print('Result is Fail')
 else:
     print('Input is invalid')
