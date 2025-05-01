@@ -45,3 +45,8 @@ read a character
 check if it is upper case letter, lower case letter or a digit
 if yes, print alphanumeric
 if no, print not an alphanumeric
+--------------------------------------
+Day4 Assignments
+1. Accept a number from the user and print its Math table (use for loop and range function)
+2. Accept 3 numbers, start number (M), end number (N) and increment (I) and print the numbers from M to N with increment of I.
+3. Accept a small number (0 to 20) and find its Factorial.
