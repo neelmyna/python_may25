@@ -1,0 +1,16 @@
+name = 'samsung south-korea'
+
+print(name[0:30])
+print(name[2:12])
+print(name[1:-2])
+print(name[2:-1])
+print(name[::2])
+print(name[10:1:-1])
+print(name[::-1])
+print(name[-1::-1])
+print(name[:-25:-1])
+print(name[10:5:2])
+print(name[2])
+print(name[-2])
+print(name[21])
+print(name[-19])
