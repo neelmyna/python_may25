@@ -175,3 +175,41 @@ print(name[:10])
 print(name[:])
 print(name[::])
 ----------------------------
+south-korea'
+
+print(name[0:30])
+print(name[2:12])
+print(name[1:-2])
+print(name[2:-1])
+print(name[::2])
+print(name[10:1:-1])
+print(name[::-1])
+print(name[-1::-1])
+print(name[:-25:-1])
+print(name[10:5:2])
+print(name[2])
+print(name[-2])
+print(name[21])
+print(name[-19])
+-------------------
+range function:
+It is used to generate numbers in the given order.
+
+range(10)
+Here, the range starts from 0 and ends with 9. And the default increment is 1.
+Thus it generates 0, 1, 2, 3, .... 9
+range(2, 20)
+It generates numbers from 2 to 19 with increment 1
+range(5, 20, 2)
+Generates numbers from 5 to 19 with increment 2
+range(50, 10, -2)
+Generates numbers from 50 to 11 with decrement 2 (increment -2)
+
+range(10, 11)
+Generates only 10
+range(5, 5)
+generates nothing
+------------------------------------
+switch-case in python
+
+
