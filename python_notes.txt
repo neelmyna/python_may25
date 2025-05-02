@@ -212,4 +212,25 @@ generates nothing
 ------------------------------------
 switch-case in python
 
+---------------------
+EQuilateral triangle
 
+number_of_lines = int(input('Enter number of lines of the Triangle: '))
+
+for i in range(1, number_of_lines+1):
+    print(' ' * (number_of_lines-i), end='')
+    print('@' * (2*i-1))
+
+n=5
+i=1 2 3 4 5
+
+when i=1
+    @
+when i=2
+   @@@
+i=3
+  @@@@@
+i=4
+ @@@@@@@
+i=5
+@@@@@@@@@
