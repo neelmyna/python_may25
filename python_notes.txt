@@ -213,6 +213,7 @@ generates nothing
 switch-case in python
 
 ---------------------
+DAY5 02-05-2025 (Loops and Shapes programs)
 EQuilateral triangle
 
 number_of_lines = int(input('Enter number of lines of the Triangle: '))
@@ -234,3 +235,5 @@ i=4
  @@@@@@@
 i=5
 @@@@@@@@@
+--------------------------
+Hollow Square
