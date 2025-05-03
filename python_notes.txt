@@ -237,3 +237,131 @@ i=5
 @@@@@@@@@
 --------------------------
 Hollow Square
+
+
+-----------------------------
+X-Shape
+number_of_lines = int(input('Enter number of lines to print X shape: '))
+
+for i in range(1, number_of_lines+1): # for each line
+    for j in range(1, number_of_lines+1): # for each position in the line
+        if i == j or j == number_of_lines - i + 1:
+            print('* ', end='')
+        else:
+            print('  ', end='')
+    print() # to take the cursor to next line
+
+
+'''
+     *
+    ***
+   *****
+  *******
+ *********
+***********
+
+for i in range(1, number_of_lines+1):
+    print('@ ' * n)
+
+'''
+--------------------------
+DAY6 SATURDAY 03-05-2025
+List 
+
+Python has few builtin Data structures.
+Now what is a Data structure?
+Storage and arrangement of data in memory is data structure, in a particular way and it helps in achieving some efficiency or in building a logic.
+
+
+Finding Efficiency:
+O Big-Oh
+Big Theta
+Big Omega
+
+Worst case efficiency   WCE
+Best case efficiency    BCE
+Average case efficiency ACE
+
+BCE     O(1)
+WCE     O(n)
+ACE     O(n)
+
+2 * n
+n/2 = n * 1/2
+
+Characteristics of Bih-Oh:
+It is usually used to find WCE of the algorithm.
+It gives the efficiency in terms of 'n' which is the input size.
+It considers the the input size 'n' to be very big.
+It gives only the order in which the efficiency is.
+Its job is not to find the exact efficiency of the logic/algorithm.
+
+Array:
+An array is a Linear data structure in which all the elements are stored in continuous memory locations, that is, there is no gap between any 2 consecutive elements of the Array. All elements of the array must be of the same datatype(size).
+
+An array is time efficient DS. Because the lookup (time taken to access) of any element is O(1), that is one unit time.
+
+An array is memory inefficient DS, because there will almost always either shortage of memory or wastage of memory. This is because the size of an array is always fixed.
+
+Use of an array is very easy. To acces any element we just use the index of the element with subscript [] and the array name. For example, to access the 1st element we say array[0] and to access 4th element array[3] and so on.
+
+Why index of an Array starts from zero ?
+Name of an array also represents the starting address of the array (address of 1st element). To this if we add 0 bytes, we get the 1st element. To the address of the array if we add 1, we mean jump 1 element from the starting address. Thus when we say array[3] we are asking the system to jump 3 elements afetr 1st element which is the 4th element.
+--------------------------------------------
+Programs on while loop:
+1. Find sum of digits of a number
+2. Find sum of Odd/Even digits of a number
+3. Check if a number is Prime.
+4. Check if a number is Perfect Square (Hint: use the method sqrt from math package)
+5. Print all the Prime numbers between M and N (M < N)
+6. Print the Nth Prime number.
+7. Find sum of Odd placed digits of a number.
+8. Find sum of Even placed Odd digits of a number.
+
+num = 82456
+7399
+23
+
+10)23(2
+   20
+    3
+
+10)82456(8245
+   82450
+       6
+
+num = 7399
+sum = 0
+while num != 0:
+    remainder_digit = num % 10
+    num = num // 10
+    sum = sum + remainder_digit
+
+n=7399 C-holds
+s=0
+
+i=1
+r=9
+n=739
+s=0+9=9
+
+i=2 C-holds
+r=9
+n=73
+s=9+9=18
+
+i=3 c-holds
+r=3
+n=7
+s=18+3=21
+
+i=4 c-holds
+r=7
+n=0
+s=21+7=28
+
+10)7(0
+   0
+   7
+
+i=5 c-fails

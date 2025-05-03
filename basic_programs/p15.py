@@ -1,25 +1,9 @@
-# Right angled Triangle of N lines
+input_number = int(input('Enter a number to find sum of its digits: '))
+sum_of_digits = 0
+temp_number = input_number
+while temp_number != 0:
+    remainder_digit = temp_number % 10
+    temp_number = temp_number // 10
+    sum_of_digits = sum_of_digits + remainder_digit
 
-number_of_lines = int(input('Enter number of lines to print X shape: '))
-
-
-for i in range(1, number_of_lines+1):
-    for j in range(1, number_of_lines+1):
-        if i == j or j == number_of_lines - i + 1:
-            print('* ', end='')
-        else:
-            print('  ', end='')
-    print() # to take the cursor to next line
-
-'''
-     *
-    ***
-   *****
-  *******
- *********
-***********
-
-for i in range(1, number_of_lines+1):
-    print('@ ' * n)
-
-'''
+print(f'Sum of the digits of {input_number} is {sum_of_digits}')
