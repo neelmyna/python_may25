@@ -1,0 +1,13 @@
+'''
+1. In a cinema, ticket prices vary depending on the age of the customer. Children who are under 12 years old are allowed to enter for free, encouraging families to bring their young ones to the movies. Teenagers between the ages of 12 and 18 are charged a discounted rate of ₹100, making it affordable for school and college-going youth. Adults aged between 18 and 60 are required to pay the full ticket price of ₹150, as they fall under the standard category. This age-based pricing system ensures accessibility for different age groups while maintaining revenue balance for the cinema.
+
+2. In an online shopping system, the confirmation of a customer's order depends on two important conditions: 
+->the availability of the item in stock and whether delivery is possible in the customer's pin code area. 
+If both conditions are satisfied — meaning the item is currently available and the delivery service can reach the customer's location — the order is successfully confirmed. However, if either the item is out of stock or delivery is not available in the given pin code, the system displays a message informing the customer that the order cannot be placed. This ensures a smooth and transparent shopping experience by setting clear expectations before the payment process.
+
+3. In a train ticket booking system, the availability of seats plays a crucial role in determining whether a passenger’s booking request can be confirmed. If seats are available, the system confirms the booking, and the passenger is notified that their seat is secured. However, if no seats are available at the time of booking, the system adds the passenger to a waiting list. This waiting list holds the details of all passengers who are waiting for available seats, ensuring that they can be prioritized if a seat becomes vacant. The system ensures smooth booking operations by clearly communicating the status of the request, whether the booking is confirmed or the user has been placed on the waiting list.
+
+4. A user qualifies for a special discount only if their total cart value is above ₹1000 and they are a registered member.
+Q: Write a program to check if the user gets the discount.
+
+'''

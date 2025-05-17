@@ -1,0 +1,40 @@
+1 A teacher wants to print roll numbers of students from 1 to 30, but skip roll number 13 because it is considered unlucky.
+Question: Write a for loop to print roll numbers from 1 to 30, skipping 13.
+Expected Concept: for loop with an if condition and continue.
+
+2 A vending machine gives a discount if the item number is divisible by 5.
+Question: Using a loop from 1 to 50, print "Discount" for items divisible by 5, else print the item number.
+Expected Concept: Modulo % inside a loop with if-else.
+
+3 A gym trainer wants to display even-numbered lockers only (2 to 20).
+Question: Write a loop to print only even locker numbers.
+Expected Concept: for loop, % operator or increment by 2.
+
+4 You are developing an app that counts how many numbers between 1 and 100 are divisible by both 3 and 7.
+Question: Write a program segment to count and print such numbers.
+Expected Concept: Loop, multiple conditions using &&.
+
+5 An event marks every 10th participant as "VIP".
+Question: Write a for loop from 1 to 100 that prints "VIP" for every 10th participant, else prints "Regular".
+Expected Concept: if-else inside for.
+
+6 A game gives bonus points every time a player reaches a score that's a multiple of 25.
+Question: Simulate a loop from 1 to 100. For each score, print "Bonus!" if it's a multiple of 25.
+Expected Concept: Loop with condition inside.
+
+7 In a coding contest, participants with even IDs solve "Easy" problems, odd IDs solve "Hard" problems. IDs range from 101 to 110.
+Question: Write code using a loop and condition to display participant ID with task type.
+Expected Output: 101 - Hard, 102 - Easy, etc.
+
+8 A number is called "Special" if it is divisible by 3 but not by 9.
+Question: Write a loop from 1 to 100 that prints only "Special" numbers.
+Expected Concept: Combined condition with % and !.
+
+9 A traffic light simulator runs 10 cycles. If the cycle number is divisible by 3, show "Red", by 5 show "Green", otherwise "Yellow".
+Question: Write a for loop that prints the light for each cycle.
+Expected Concept: Nested or chained if-else if.
+
+10 A warehouse wants to flag defective boxes whose numbers are divisible by 4 or end in 6 (e.g., 26, 36).
+Question: Write a for loop from 1 to 100 to print only defective box numbers.
+Hint: Use % 10 to check the last digit.
+
